@@ -1,0 +1,5 @@
+def listaAleatorios(n,m):
+      lista = [0]  * n
+      for i in range(n):
+          lista[i] = random.randint(0, m-1)
+      return lista
