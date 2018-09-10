@@ -1,2 +1,2 @@
 # Lab2
-# en este lab se busca tener una idea del como se comporta el algoritmo insertion sort
+# En este laboratorio se busca tener una idea del como se comporta el algoritmo insertion sort
