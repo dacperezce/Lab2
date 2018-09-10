@@ -1,3 +1,2 @@
 # Lab2
-from itertools import permutations
-import random
+en este lab se busca tener una idea del como se comporta el algoritmo insertion sort
