@@ -15,13 +15,13 @@ pipeline {
 
     stage('Test') {
       parallel {
-        stage('Integración') {
+        stage('Integracion') {
           steps {
             echo 'intngrando'
           }
         }
 
-        stage('Desempeño') {
+        stage('Desempeno') {
           steps {
             echo 'Validando'
           }
@@ -53,13 +53,13 @@ pipeline {
       }
     }
 
-    stage('Confirmación') {
+    stage('Confirmacion') {
       steps {
         echo 'Confirmando'
       }
     }
 
-    stage('Analisis estático') {
+    stage('Analisis estatico') {
       steps {
         echo 'Analisando'
       }
@@ -67,7 +67,7 @@ pipeline {
 
     stage('Desplegar') {
       steps {
-        echo 'Acción'
+        echo 'AcciÃ³n'
       }
     }
 
